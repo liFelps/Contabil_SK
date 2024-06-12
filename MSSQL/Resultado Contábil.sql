@@ -1,4 +1,3 @@
-
 SELECT FORMAT(LAN.DTMOV, 'MM/yyyy') AS "Mes",
        PLA0.CTACTB  AS "Conta Contábil_ID" ,
        PLA0.DESCRCTA AS "Conta Contábil",

@@ -1,4 +1,6 @@
 SELECT TO_CHAR(LAN.DTMOV, 'MM/yyyy') AS "Mes",
+       LAN.NUMLANC AS "Numlanc_ID",
+       LAN.NUMLANC AS "Numlanc",
        PLA0.CTACTB  AS "Conta Contábil_ID" ,
        PLA0.DESCRCTA AS "Conta Contábil",
        LAN.CODCENCUS AS "Centro de Resultado_ID",
